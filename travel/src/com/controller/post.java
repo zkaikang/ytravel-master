@@ -40,6 +40,8 @@ public class post extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
 
+
+
         BufferedReader br = new BufferedReader(new InputStreamReader(request.getInputStream(),"utf-8"));
         String line = null;
         StringBuilder sb = new StringBuilder();
